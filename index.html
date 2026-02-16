@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iOS 26 UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <main class="app-shell">
+      <header class="top-bar glass-card">
+        <div class="status-pill" aria-label="Current mode">
+          <span class="dot"></span>
+          Focus
+        </div>
+        <button class="icon-btn" aria-label="Notifications">🔔</button>
+      </header>
+
+      <section class="hero glass-card" aria-labelledby="welcome-title">
+        <p class="eyebrow">Good evening</p>
+        <h1 id="welcome-title">Welcome to iOS 26</h1>
+        <p class="subtitle">
+          A fluid, adaptive interface with depth, frosted surfaces, and high-contrast typography.
+        </p>
+        <div class="hero-actions">
+          <button class="primary">Continue</button>
+          <button class="secondary">Customize</button>
+        </div>
+      </section>
+
+      <section class="widget-grid" aria-label="Widgets overview">
+        <article class="widget glass-card">
+          <h2>Weather</h2>
+          <p class="metric">22°</p>
+          <p class="muted">Mostly Sunny</p>
+        </article>
+        <article class="widget glass-card">
+          <h2>Activity</h2>
+          <p class="metric">8,320</p>
+          <p class="muted">Steps Today</p>
+        </article>
+        <article class="widget glass-card">
+          <h2>Battery</h2>
+          <p class="metric">84%</p>
+          <p class="muted">Optimized Charging</p>
+        </article>
+      </section>
+
+      <nav class="dock glass-card" aria-label="Primary navigation">
+        <button class="dock-item active" aria-current="page">Home</button>
+        <button class="dock-item">Widgets</button>
+        <button class="dock-item">Search</button>
+        <button class="dock-item">Settings</button>
+      </nav>
+    </main>
+  </body>
+</html>
